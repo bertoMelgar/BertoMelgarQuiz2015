@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="icon" href="favicon.jpg" type="image/jpeg" /> 
+  </head>
+  <body>
+    <p>Welcome to <%= title %></p>
+
+    <form method='get' action='/quizes/answer'>
+
+          
+      <h1>Pregunta: <%= pregunta %></h1>
+      <input type='text' name='respuesta' value='responde aqui'>
+      <input type='submit' value='enviar'>
+
+
+    </form>
+
+    
+  </body>
+</html>
